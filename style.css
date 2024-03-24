@@ -1,0 +1,357 @@
+.logo{
+    height:90px;
+    width:150px;
+    cursor: pointer;
+}
+.body{
+    box-sizing: border-box;
+}
+#Nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 24px;
+    margin-left: 100px;
+    margin-bottom: 2px;
+}
+.Nav-mid{
+    width:450px;
+    text-align: center;
+    
+}
+.Nav2{
+    float: right;
+    
+}
+
+.NavButton{
+    background-color: white;
+    font-family: adjusted Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    display: inline;
+    margin-right: 8px;
+    color:black;
+    cursor: pointer;
+    height:40px;
+    border:none;
+    text-align: center;
+    
+}
+
+.NavButton:hover{
+    color: #006aff;
+}
+
+
+.Image{
+    position: relative;
+    text-align: center;
+    position: absolute;
+}
+
+.text{
+    font-size: 36px;
+    font-weight: 700px;
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.Search-bar{
+    width: 650px;
+    height: 70px;
+    padding-left: 15px;
+    border-color: #006aff;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: adjusted Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Sign-In{
+    display: flex;
+    flex-direction: row;
+    margin-top: 575px;
+    margin-right: 96px;
+    margin-left: 130px;
+    width: 100%;
+    height: 248px;
+}
+
+.Sign-In-Text{
+    display:inline-block;
+    width:336px ;
+    height: 115px;
+    margin-left:20px ;
+    justify-content:center;
+    white-space: nowrap;
+    text-align: center;
+    margin-top: 24px;
+}
+.Head-5{
+    color: rgb(42, 42, 51);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    width: 1152px;
+    margin-left: 20px;
+    text-align: left;
+
+}
+
+.P-Sign-In{
+    color:rgb(89, 107, 130);
+    font-size: 16px;
+    font-family: adjusted Arial, Helvetica, sans-serif;
+    margin-top: none;
+    text-align: justify;
+    width: 1152px;
+
+}
+
+.Sign-In-Button{
+    width: 80px;
+    height: 40px;
+    cursor:pointer;
+    color: #006aff;
+    background-color: white;
+    border-width: 1px;
+    border-color: #006aff;
+    border-radius:5px ;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+.Sign-In-Button:hover{
+    color:rgb(42, 42, 204);
+    border-color:rgb(42, 42, 204) ;
+    background-color: rgb(229, 236, 233);
+}
+
+.Pictures-3{
+    width:795px;
+    height: 248px;
+    margin-left: 25px;
+    
+
+}
+
+.Box-Section{
+    width: 100%;
+    height: 670px;
+    background-color: rgb(249, 249, 251);
+    
+    
+}
+.Outer-Section{
+    display: flex;
+    width: 100%;
+    height: 670px;
+    padding-left: 120px;
+
+}
+.Sections{
+    width:378px ;
+    height:560px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 6px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 4px 0px;
+    padding-left: 2px;
+    transition: transform.2s;
+}
+.Sections:hover{
+    transform: scale(105%)
+
+}
+
+
+
+
+.Pic1{
+    width:348px ;
+    height: 183px;
+    padding-top: 35px;
+}
+
+.H-Box-Section{
+    font-size: 24px;
+    font-family: "Ivar Headline", "Ivar Headline Subset", "Adjusted Times", "Adjusted Times New Roman", "Times New Roman", serif;
+    font-weight: 700px;
+    line-height: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.P-Box-Section{
+    font-size: 17px;
+    font-family: adjusted Arial, Helvetica, sans-serif;
+    color: rgb(79, 79, 86);
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 65px;
+
+}
+
+.Button-Box-Section{
+    border-color: #006aff;
+    border-radius: 4px;
+    border-width: 1px;
+    background-color: white;
+    width: 150px;
+    height: 45px;
+    font-weight: 700;
+    font-size: medium;
+    color: #006aff;
+    cursor: pointer;
+}
+
+.Button-Box-Section:hover{
+    background-color: #006aff;
+    color: white;
+}
+
+
+.About{
+    font-size: 16px;
+    color: rgb(42, 42, 51);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 72px;
+    line-height: 24px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 100px;
+}
+
+.About-Buttons{
+    width: 100%;
+    padding-left: 150px;
+    
+
+}
+.DownButton{
+    font-size: 16px;
+    font-family: adjusted Arial, Helvetica, sans-serif;
+    width:228px ;
+    height: 24px;
+    font-weight: bold;
+    color: black;
+    margin: 16px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+.DownButton:hover{
+    text-decoration: underline;
+}
+
+.DownImage{
+    width:1200px;
+    height: 160px;
+    padding-left: 100px;
+
+}
+
+.Bottom-Nav{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: rgb(138, 138, 145) ;
+    text-align: center;
+    height: 179px;
+    width: 1224px;
+    margin-left: 65px;
+    padding-top: 30px;
+
+}
+
+.Bottom-Nav-1{
+    padding-bottom: 10px;
+}
+.List{
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    color: #2A2A37;
+    cursor: pointer;
+    font-family: adjusted Arial, Helvetica, sans-serif;
+}
+.List:hover{
+    text-decoration: underline;
+}
+.Bottom-p{
+    font-size: 15px;
+    cursor: pointer;
+    font-family: adjusted Arial, Helvetica, sans-serif;
+    color: #0d4599;
+    padding-top: 10px;
+}
+.Bottom-p:hover{
+    text-decoration: underline;
+}
+
+
+.footer-p{
+    width: 720px;
+    height: 48px;
+    text-align: center;
+    font-size: 10px;
+    font-family: "Open Sans", "Adjusted Arial", Tahoma, Geneva, sans-serif;
+    color: #54545A;
+    padding-left: 300px;
+    text-align: center;
+    display: block; 
+    padding-bottom: 20px;
+    padding-top: 10px;
+
+}
+
+.Badge{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.Follow-Badge{
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    font-style: italic;
+    font-family: "Open Sans", "Adjusted Arial", Tahoma, Geneva, sans-serif;
+    padding-top: 10px;
+    height: 50px;
+    padding-bottom: 35px;
+}
+.footerContainer{
+    display: flex;
+}
+
+.Icons{
+    padding-left: 2px;
+    filter: brightness(0) saturate(100%) invert(23%) sepia(86%) saturate(2897%) hue-rotate(210deg) brightness(104%) contrast(105%);
+}
+
+.Down-Arrow{
+    width: 16px;
+    height: 16px;
+    padding-left: 5px;
+    filter: brightness(0) saturate(100%) invert(23%) sepia(86%) saturate(2897%) hue-rotate(210deg) brightness(104%) contrast(105%);
+
+
+}
+.Home-Icon{
+    width:32px;
+    height:32px;
+    padding-left: 10px;
+}
